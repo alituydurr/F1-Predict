@@ -1,6 +1,15 @@
 import streamlit as st
 import matplotlib.pyplot as plt
 
+
+st.set_page_config(
+    page_title="Formula 1 Tahmin ve Analiz Aracı",
+    page_icon="4-Streamlit\images\F1_car.png",
+    layout="wide",
+    menu_items={
+        "Get help": "mailto:tuydur.ali@gmail.com",
+    }
+)
 # Sayfa başlığı ve açıklama
 st.title("Formula 1 Tahmin ve Analiz Aracı")
 st.subheader("F1 Strateji Analizi ve Pit Stop Optimizasyonu")
